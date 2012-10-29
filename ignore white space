@@ -1,0 +1,6 @@
+#!/bin/bash
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+
+# restore $IFS
+IFS=$SAVEIFS
